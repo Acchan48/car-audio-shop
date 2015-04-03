@@ -9,41 +9,41 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600,700' rel='stylesheet' type='text/css'/>
 	<link href='//cdn.jsdelivr.net/fontawesome/4.3.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'/>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-	<title>ES-60</title>
+	<title>Achievements</title>
 </head>
 <body>
 	<div class="page-container">
 		<!-- Header -->
 	    <header class="header">
 			<nav class="navbar container">
-				<div class="navbar-header">
+			  	<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
+					 	<span class="icon-bar"></span>
+					  	<span class="icon-bar"></span>
+					  	<span class="icon-bar"></span>
 					</button>
 					<a href="index.php" class="navbar-brand">Car Audio</a>
-				</div>
-				<div class="navbar-collapse collapse navbar-right">
+			  	</div>
+	         	<div class="navbar-collapse collapse navbar-right">
 					<ul class="nav navbar-nav">
-						<li><a href="index.php">Home</a></li>
+			            <li><a href="index.php">Home</a></li>
+	              		<li class="dropdown active">
+	                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">PROFILE <b class="caret"></b></a>
+	                        <ul class="dropdown-menu">
+	                        	<li><a href="gallery.php">Gallery</a></li>
+	                          	<li><a href="achievement.php">Achievements</a></li>
+	                        </ul>
+	                  	</li>
 						<li class="dropdown">
-							<a data-toggle="dropdown" class="dropdown-toggle" href="#">PROFILE <b class="caret"></b></a>
-							<ul class="dropdown-menu">
-								<li><a href="gallery.php">Gallery</a></li>
-								<li><a href="achievement.php">Achievements</a></li>
-							</ul>
-						</li>
-						<li class="dropdown active">
-							<a data-toggle="dropdown" class="dropdown-toggle" href="#">AUDIO <b class="caret"></b></a>
-							<ul class="dropdown-menu">
-								<li><a href="#" class="ajax_right">Difuser</a></li>
+	                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">AUDIO <b class="caret"></b></a>
+	                        <ul class="dropdown-menu">
+							  	<li><a href="#" class="ajax_right">Difuser</a></li>
 							  	<li><a href="#" class="ajax_right">Power Amplifier</a></li>
 							  	<li><a href="#" class="ajax_right">Speaker</a></li>
 							  	<li><a href="#" class="ajax_right">Subwoofer</a></li>
-							</ul>
-						</li>   
+	                        </ul>
+	                  	</li>   
 						<li><a href="contact.php" class="ajax_right">Contact</a></li>
 						<li><a href="#" data-toggle="modal" data-target="#sign_in_modal">SIGN IN</a></li>
 					</ul>
@@ -60,7 +60,7 @@
 											<td class="total">$130.00</td>
 											<td class="remove"><img src="image/remove-small.png" alt="Remove" title="Remove"></td>											
 										</tr>
-											<tr>
+										<tr>
 											<td class="image"><img alt="IMAGE" class="img-responsive" src="products/dress11.jpg"></td>
 											<td class="name"><a href="project.php">Blue Dress</a></td>
 											<td class="quantity">x&nbsp;3</td>
@@ -93,68 +93,115 @@
 						</div>
 					</form>
 				</div><!-- /.navbar-collapse -->
-			</nav>			
+			</nav>		
 		</header>
 		<!-- Content -->
 		<main class="container">
-			<ul class="breadcrumb prod">
-				<li><a href="index.php">Home</a> <span class="divider"></span></li>
-				<li class="active">Product</li>
-			</ul>
-			<div class="row product-info">
-				<div class="col-md-6">
-					<div class="image"><a href="products/es-60.png" title="ES-60"><img src="products/es-60.png" title="ES-60" alt="ES-60" id="image" style="width:100%"/></a></div>
-				</div>
-				<div class="col-md-6">
-					<h1>ES-60</h1>
-					<div class="line"></div>
-					<ul>
-						<li><span>Brand:</span> <a href="#">Domination</a></li>
-						<li><span>Category:</span> Speaker</li>
-						<li><span>Availability: </span>In Stock</li>
-					</ul>
-					<div class="price">
-						Price <strong>Rp 2.520.000</strong>
-					</div>
-					<div class="line"></div>
-					<form class="form-inline">
-						<button class="btn btn-primary" type="button">Add to Cart</button>
-						<label>Qty:</label> <input type="text" placeholder="1" class="col-md-1">
-					</form>
-					<div class="tabs">
-						<ul class="nav nav-tabs" id="myTab">
-							<li class="active"><a href="#profile">Specification</a></li>
-						</ul>
-						<div class="tab-content">
-							<div class="tab-pane active" id="profile">
-								<table class="table specs">
-									<tr>
-										<th>Type</th>
-										<td>ES 60</td>
-									</tr>
-									<tr>
-										<th>Max. Power handling</th>
-										<td>40-80 Watt</td>
-									</tr>
-									<tr>
-										<th>System Sensitivity (1Watt/1m)</th>
-										<td>90.13 dB</td>
-									</tr>								
-									<tr>
-										<th>System Frequency Response (+/-3dB)</th>
-										<td>20Hz-20 KHz</td>
-									</tr>
-									<tr>
-										<th>System Nom. Impedance</th>
-										<td>4 ohm</td>
-									</tr>
-								</table>
-							</div>
-						</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="cat_header">
+						<h2>Achievements</h2>
 					</div>
 				</div>
 			</div>
-		</main>		
+			<div class="row">
+				<div class="col-md-3">
+					<div class="product">
+						<a href="#"><img alt="achievement1" src="achievement/achievement1.jpg" style="height:300px"></a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product">
+						<a href="#"><img alt="achievement2" src="achievement/achievement2.jpg" style="height:300px"></a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product">
+						<a href="#"><img alt="achievement3" src="achievement/achievement3.jpg" style="height:300px"></a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product">
+						<a href="#"><img alt="achievement4" src="achievement/achievement4.jpg" style="height:300px"></a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product">
+						<a href="#"><img alt="achievement5" src="achievement/achievement5.jpg" style="height:300px"></a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product">
+						<a href="#"><img alt="achievement6" src="achievement/achievement6.jpg" style="height:300px"></a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product">
+						<a href="#"><img alt="achievement7" src="achievement/achievement7.jpg" style="height:300px"></a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product">
+						<a href="#"><img alt="achievement8" src="achievement/achievement8.jpg" style="height:300px"></a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product">
+						<a href="#"><img alt="achievement9" src="achievement/achievement9.jpg" style="height:300px"></a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product">
+						<a href="#"><img alt="achievement10" src="achievement/achievement10.jpg" style="height:300px"></a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product">
+						<a href="#"><img alt="achievement11" src="achievement/achievement11.jpg" style="height:300px"></a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product">
+						<a href="#"><img alt="achievement12" src="achievement/achievement12.jpg" style="height:300px"></a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product">
+						<a href="#"><img alt="achievement13" src="achievement/achievement13.jpg" style="height:300px"></a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product">
+						<a href="#"><img alt="achievement14" src="achievement/achievement14.jpg" style="height:300px"></a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product">
+						<a href="#"><img alt="achievement15" src="achievement/achievement15.jpg" style="height:300px"></a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product">
+						<a href="#"><img alt="achievement16" src="achievement/achievement16.jpg" style="height:300px"></a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product">
+						<a href="#"><img alt="achievement17" src="achievement/achievement17.jpg" style="height:300px"></a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product">
+						<a href="#"><img alt="achievement18" src="achievement/achievement18.jpg" style="height:300px"></a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product">
+						<a href="#"><img alt="achievement19" src="achievement/achievement19.jpg" style="height:300px"></a>
+					</div>
+				</div>
+			</div>
+		</main>
 		<!-- Footer -->
 		<footer class="footer black">
 			<div class="container">
@@ -232,29 +279,6 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap-select.min.js"></script>
 	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-	<script type="text/javascript" src="js/cloud-zoom.1.0.3.js"></script>
 	<script type="text/javascript" src="js/sapphire.js"></script>
-	<script>
-		$.fn.CloudZoom.defaults = {
-			zoomWidth:"auto",
-			zoomHeight:"auto",
-			position:"inside",
-			adjustX:0,
-			adjustY:0,
-			adjustY:"",
-			tintOpacity:0.5,
-			lensOpacity:0.5,
-			titleOpacity:0.5,
-			smoothMove:3,
-			showTitle:false
-		};
-
-		jQuery(document).ready(function(){
-			$('#myTab a').click(function (e){
-				e.preventDefault();
-				$(this).tab('show');
-			});
-		});
-	</script>
 </body>
 </html>

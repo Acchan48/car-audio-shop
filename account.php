@@ -14,7 +14,7 @@
 <body>
 	<div class="page-container">
 		<!-- Header -->
-	    <header class="header">
+		<header class="header">
 			<nav class="navbar container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -35,7 +35,7 @@
 								<li><a href="achievement.php">Achievements</a></li>
 							</ul>
 						</li>
-						<li class="dropdown active">
+						<li class="dropdown">
 							<a data-toggle="dropdown" class="dropdown-toggle" href="#">AUDIO <b class="caret"></b></a>
 							<ul class="dropdown-menu">
 								<li><a href="#" class="ajax_right">Difuser</a></li>
@@ -93,65 +93,81 @@
 						</div>
 					</form>
 				</div><!-- /.navbar-collapse -->
-			</nav>			
+			</nav>
 		</header>
 		<!-- Content -->
 		<main class="container">
-			<ul class="breadcrumb prod">
-				<li><a href="index.php">Home</a> <span class="divider"></span></li>
-				<li class="active">Product</li>
-			</ul>
-			<div class="row product-info">
+			<div class="row">
 				<div class="col-md-6">
-					<div class="image"><a href="products/es-60.png" title="ES-60"><img src="products/es-60.png" title="ES-60" alt="ES-60" id="image" style="width:100%"/></a></div>
-				</div>
-				<div class="col-md-6">
-					<h1>ES-60</h1>
-					<div class="line"></div>
-					<ul>
-						<li><span>Brand:</span> <a href="#">Domination</a></li>
-						<li><span>Category:</span> Speaker</li>
-						<li><span>Availability: </span>In Stock</li>
-					</ul>
-					<div class="price">
-						Price <strong>Rp 2.520.000</strong>
-					</div>
-					<div class="line"></div>
-					<form class="form-inline">
-						<button class="btn btn-primary" type="button">Add to Cart</button>
-						<label>Qty:</label> <input type="text" placeholder="1" class="col-md-1">
-					</form>
-					<div class="tabs">
-						<ul class="nav nav-tabs" id="myTab">
-							<li class="active"><a href="#profile">Specification</a></li>
-						</ul>
-						<div class="tab-content">
-							<div class="tab-pane active" id="profile">
-								<table class="table specs">
-									<tr>
-										<th>Type</th>
-										<td>ES 60</td>
-									</tr>
-									<tr>
-										<th>Max. Power handling</th>
-										<td>40-80 Watt</td>
-									</tr>
-									<tr>
-										<th>System Sensitivity (1Watt/1m)</th>
-										<td>90.13 dB</td>
-									</tr>								
-									<tr>
-										<th>System Frequency Response (+/-3dB)</th>
-										<td>20Hz-20 KHz</td>
-									</tr>
-									<tr>
-										<th>System Nom. Impedance</th>
-										<td>4 ohm</td>
-									</tr>
-								</table>
+					<form class="loginbox form-horizontal" method="post" action="#">
+						<p>Sign in</p>
+						<div class="form-group">
+							<div class="col-md-12">
+								<div class="bg-danger" style="padding:5px">
+									<i class="fa fa-times"></i> Error list
+								</div>
 							</div>
 						</div>
-					</div>
+						<div class="form-group">
+							<label class="control-label col-md-4" for="inputEmail">Username or email<span class="required">*</span></label>
+							<div class="col-md-8">
+								<input type="text" class="form-control" name="user" required>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-md-4" for="inputPassword">Password<span class="required">*</span></label>
+							<div class="col-md-8">
+								<input type="password"  class="form-control" name="pass" required>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-md-12">
+								<button class="btn btn-primary" type="submit">SIGN IN</button>
+								<a href="forgot-password.html">Lost Password?</a>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="col-md-6">
+					<form class="loginbox form-horizontal" method="post" action="#">
+						<p>Sign up</p>
+						<div class="form-group">
+							<div class="col-md-12">
+								<div class="bg-danger" style="padding:5px">
+									<i class="fa fa-times"></i> Error list
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-md-4" for="inputEmail">Username<span class="required">*</span></label>
+							<div class="col-md-8">
+								<input type="text"  class="form-control" name="new_user" required>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-md-4" for="inputPassword">Password<span class="required">*</span></label>
+							<div class="col-md-8">
+								<input type="password"  class="form-control" name="new_pass" required>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-md-4" for="inputEmail">Email<span class="required">*</span></label>
+							<div class="col-md-8">
+								<input type="email" id="inputEmail" class="form-control" name="new_email" required>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-md-4" for="inputPassword">Re-enter password<span class="required">*</span></label>
+							<div class="col-md-8">
+								<input type="password" id="inputPassword" class="form-control" name="new_confirm_pass" required>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-md-12">
+								<button class="btn btn-primary" type="submit">SIGN UP</button>
+							</div>
+						</div>
+					</form>					
 				</div>
 			</div>
 		</main>		
@@ -227,34 +243,11 @@
 			</div>
 		</div>
 	</div>
-	<!-- Scripts -->
+	<!-- Scritps -->
 	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap-select.min.js"></script>
 	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-	<script type="text/javascript" src="js/cloud-zoom.1.0.3.js"></script>
 	<script type="text/javascript" src="js/sapphire.js"></script>
-	<script>
-		$.fn.CloudZoom.defaults = {
-			zoomWidth:"auto",
-			zoomHeight:"auto",
-			position:"inside",
-			adjustX:0,
-			adjustY:0,
-			adjustY:"",
-			tintOpacity:0.5,
-			lensOpacity:0.5,
-			titleOpacity:0.5,
-			smoothMove:3,
-			showTitle:false
-		};
-
-		jQuery(document).ready(function(){
-			$('#myTab a').click(function (e){
-				e.preventDefault();
-				$(this).tab('show');
-			});
-		});
-	</script>
 </body>
 </html>

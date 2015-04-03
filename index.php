@@ -32,8 +32,8 @@
 	              		<li class="dropdown">
 	                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">PROFILE <b class="caret"></b></a>
 	                        <ul class="dropdown-menu">
-	                        	<li><a href="#">Gallery</a></li>
-	                          	<li><a href="about.php">Achievement</a></li>
+	                        	<li><a href="gallery.php">Gallery</a></li>
+	                          	<li><a href="achievement.php">Achievements</a></li>
 	                        </ul>
 	                  	</li>
 						<li class="dropdown">
@@ -46,7 +46,7 @@
 	                        </ul>
 	                  	</li>   
 						<li><a href="contact.php" class="ajax_right">Contact</a></li>
-						<li><a href="#">SIGN IN</a></li>
+						<li><a href="#" data-toggle="modal" data-target="#sign_in_modal">SIGN IN</a></li>
 					</ul>
 					<ul class="nav navbar-right cart">
 						<li class="dropdown">
@@ -299,6 +299,40 @@
 				</div>	
 			</div>
 		</footer>
+	</div>
+	<!-- Modal -->
+	<div id="sign_in_modal" class="modal" tabIndex="-1" role="dialog" style="z-index:999999">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></a>
+					<h4 class="modal-title">SIGN IN</h4>
+				</div>
+				<div class="modal-body">
+					<form class="loginbox form-horizontal" method="post" action="account.php">
+						<div class="form-group">
+							<label class="control-label col-md-4" for="inputEmail">Username or email<span class="required">*</span></label>
+							<div class="col-md-8">
+								<input type="text" class="form-control" name="user" required>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-md-4" for="inputPassword">Password<span class="required">*</span></label>
+							<div class="col-md-8">
+								<input type="password" class="form-control" name="pass" required>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-md-12">
+								<button class="btn btn-primary" type="submit">SIGN IN</button>
+								<button class="btn btn-danger" type="button">SIGN UP</button>
+								<a href="forgot-password.html">Lost Password?</a>
+							</div>
+						</div>
+			        </form>
+				</div>
+			</div>
+		</div>
 	</div>
 	<!-- Scripts -->
 	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
