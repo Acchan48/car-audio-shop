@@ -183,7 +183,7 @@
 						<div class="form-group">
 							<div class="col-md-12">
 								<button class="btn btn-primary" type="submit">SIGN IN</button>
-								<button class="btn btn-danger" type="button">SIGN UP</button>
+								<a href="account.php" class="btn btn-danger">SIGN UP</a>
 								<a href="forgot-password.html">Lost Password?</a>
 							</div>
 						</div>
