@@ -35,15 +35,7 @@
 								<li><a href="achievement.php">Achievements</a></li>
 							</ul>
 						</li>
-						<li class="dropdown">
-							<a data-toggle="dropdown" class="dropdown-toggle" href="#">AUDIO <b class="caret"></b></a>
-							<ul class="dropdown-menu">
-								<li><a href="#" class="ajax_right">Difuser</a></li>
-							  	<li><a href="#" class="ajax_right">Power Amplifier</a></li>
-							  	<li><a href="#" class="ajax_right">Speaker</a></li>
-							  	<li><a href="#" class="ajax_right">Subwoofer</a></li>
-							</ul>
-						</li>   
+						<li><a href="audio.php">Audio</a></li>    
 						<li><a href="contact.php" class="ajax_right">Contact</a></li>
 						<li><a href="#" data-toggle="modal" data-target="#sign_in_modal">SIGN IN</a></li>
 					</ul>

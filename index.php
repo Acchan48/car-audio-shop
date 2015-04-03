@@ -36,15 +36,7 @@
 	                          	<li><a href="achievement.php">Achievements</a></li>
 	                        </ul>
 	                  	</li>
-						<li class="dropdown">
-	                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">AUDIO <b class="caret"></b></a>
-	                        <ul class="dropdown-menu">
-							  	<li><a href="#" class="ajax_right">Difuser</a></li>
-							  	<li><a href="#" class="ajax_right">Power Amplifier</a></li>
-							  	<li><a href="#" class="ajax_right">Speaker</a></li>
-							  	<li><a href="#" class="ajax_right">Subwoofer</a></li>
-	                        </ul>
-	                  	</li>   
+						<li><a href="audio.php">Audio</a></li>  
 						<li><a href="contact.php" class="ajax_right">Contact</a></li>
 						<li><a href="#" data-toggle="modal" data-target="#sign_in_modal">SIGN IN</a></li>
 					</ul>
@@ -122,7 +114,7 @@
 					<div class="row">
 						<div class="col-md-3">
 							<div class="product">
-								<a href="product.php"><img alt="bud 6s" src="products/bud 6s.png"></a>
+								<a href="product.php"><img alt="bud 6s" src="products/speaker/bud-6s.png"></a>
 								<div class="name">
 									<a href="#">Bud 6S</a>
 								</div>
@@ -133,7 +125,7 @@
 						</div>
 						<div class="col-md-3">
 							<div class="product">
-								<a href="product.php"><img alt="es-60" src="products/es-60.png"></a>
+								<a href="product.php"><img alt="es-60" src="products/speaker/es-60.png"></a>
 								<div class="name">
 									<a href="#">ES-60</a>
 								</div>
@@ -144,7 +136,7 @@
 						</div>			
 						<div class="col-md-3">
 							<div class="product">
-								<a href="product.php"><img alt="es-61" src="products/es-61.png"></a>
+								<a href="product.php"><img alt="es-61" src="products/speaker/es-61.png"></a>
 								<div class="name">
 									<a href="#">ES-61</a>
 								</div>
@@ -155,7 +147,7 @@
 						</div>		
 						<div class="col-md-3">
 							<div class="product">
-								<a href="product.php"><img alt="es-62" src="products/es-62.png"></a>
+								<a href="product.php"><img alt="es-62" src="products/speaker/es-62.png"></a>
 								<div class="name">
 									<a href="">ES-62</a>
 								</div>
@@ -169,7 +161,7 @@
 					<div class="row">
 						<div class="col-md-3">
 							<div class="product">
-								<a href="product.php"><img alt="bud 6s" src="products/bud 6s.png"></a>
+								<a href="product.php"><img alt="bud 6s" src="products/speaker/bud-6s.png"></a>
 								<div class="name">
 									<a href="#">Bud 6S</a>
 								</div>
@@ -180,7 +172,7 @@
 						</div>
 						<div class="col-md-3">
 							<div class="product">
-								<a href="product.php"><img alt="es-60" src="products/es-60.png"></a>
+								<a href="product.php"><img alt="es-60" src="products/speaker/es-60.png"></a>
 								<div class="name">
 									<a href="#">ES-60</a>
 								</div>
@@ -191,7 +183,7 @@
 						</div>			
 						<div class="col-md-3">
 							<div class="product">
-								<a href="product.php"><img alt="es-61" src="products/es-61.png"></a>
+								<a href="product.php"><img alt="es-61" src="products/speaker/es-61.png"></a>
 								<div class="name">
 									<a href="#">ES-61</a>
 								</div>
@@ -202,7 +194,7 @@
 						</div>		
 						<div class="col-md-3">
 							<div class="product">
-								<a href="product.php"><img alt="es-62" src="products/es-62.png"></a>
+								<a href="product.php"><img alt="es-62" src="products/speaker/es-62.png"></a>
 								<div class="name">
 									<a href="">ES-62</a>
 								</div>
@@ -216,7 +208,7 @@
 					<div class="row">
 						<div class="col-md-3">
 							<div class="product">
-								<a href="product.php"><img alt="bud 6s" src="products/bud 6s.png"></a>
+								<a href="product.php"><img alt="bud 6s" src="products/speaker/bud-6s.png"></a>
 								<div class="name">
 									<a href="#">Bud 6S</a>
 								</div>
@@ -227,7 +219,7 @@
 						</div>
 						<div class="col-md-3">
 							<div class="product">
-								<a href="product.php"><img alt="es-60" src="products/es-60.png"></a>
+								<a href="product.php"><img alt="es-60" src="products/speaker/es-60.png"></a>
 								<div class="name">
 									<a href="#">ES-60</a>
 								</div>
@@ -238,7 +230,7 @@
 						</div>			
 						<div class="col-md-3">
 							<div class="product">
-								<a href="product.php"><img alt="es-61" src="products/es-61.png"></a>
+								<a href="product.php"><img alt="es-61" src="products/speaker/es-61.png"></a>
 								<div class="name">
 									<a href="#">ES-61</a>
 								</div>
@@ -249,7 +241,7 @@
 						</div>		
 						<div class="col-md-3">
 							<div class="product">
-								<a href="product.php"><img alt="es-62" src="products/es-62.png"></a>
+								<a href="product.php"><img alt="es-62" src="products/speaker/es-62.png"></a>
 								<div class="name">
 									<a href="">ES-62</a>
 								</div>
